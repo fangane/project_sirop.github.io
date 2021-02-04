@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+
+
+}
+body{
+	font-family: 'Ubuntu','sans-serif';
+	box-sizing: border-box;
+	box-shadow: 3px; 
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+h2{
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.img-responsive{
+	width: 100%;
+	text-align: center;
+}
+.contact-footer iframe{
+	width: 100%;
+}
+footer#footer .footer{
+
+}
+.infos{
+	line-height: 1px;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+/*HEADER*/
+
+.header{
+
+	background-image: url(about.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+
+.header-logo{
+
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+
+.header-search {
+  padding: 50px 0px;
+ text-align: center;
+}
+
+.header-search .input{
+
+  width: calc(100% - 260px);
+  margin-right: -4px;
+  height: 40px;
+}
+
+.header-search .search-btn{
+
+  height: 40px;
+  width: 100px;
+  background: #1A65F0;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+}
+
+.header-search .search-btn:hover{
+
+	background: #00008b;
+}
+
+.header-ctn {
+  float: right;
+  padding: 50px 0px;
+}
+
+.header-ctn .signIn, .header-ctn .signUp{
+
+  height: 40px;
+  width: 100px;
+  background: #1A65F0;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+}
+
+.header-ctn .signIn:hover, .header-ctn .signUp:hover{
+
+	background: #00008b;
+	color: #fff;
+}
+
+h1{
+	text-align: center;
+}
+.logo{
+	color: #daa520;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 36px;
+}
+.logo:hover{
+	color: #daa520;
+	text-decoration: none;
+
+}
+
+
+}
+
+/*BODy*/
+section{
+	padding-top: 5%;
+}
+.contenu-poster{
+	padding-left: 20px;
+}
+.contenu-poster .infos-entete{
+	text-align: left;
+}
+.contenu-poster .autre-histoire{
+	list-style-type: ;
+}
+
+/*ARTICLES*/
+.col-lg-4 col-md-4 col-sm-12{
+	margin-top: 20px;
+}
+p strong{
+	display: inline-block;
+	border: solid 1px #1A65F0;
+	background-color: #1A65F0;
+	color: #FFF;
+	
+}
+h2 a, h2 a:hover{
+	color: black;
+	text-transform: lowercase;
+}
+h6{
+	display: block;
+	background-color: #87ceeb;
+}
+table, tr, td, th,{
+	border: solid 1px;
+	color: white;
+}
+.infos-entete h2{
+	text-decoration: underline;
+}
+                     	
+.chrono .autre-histoire{
+	list-style-type: circle;
+	padding-left: 20px;
+	line-height: 40px;
+}
+.chrono .autre-histoire li{
+	font-style: italic;
+}
+.chrono .autre-histoire li a{
+	color: black;
+}
+.une{
+
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*VIDEOS*/
+
+.video{
+	background: url(Sports_ball__twitter_.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.plein h1{
+
+	text-align: center;
+}
+
+
+
+/*FOOTER*/
+.footer{
+	width: 100%;
+	margin-top: 50px;
+	
+}
+/*IMAGES A LA UNE*/
+.banner{
+	width: 100%;
+	max-width: 100%;
+}
+.ban{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+/*.ban img{
+	width: 100%;
+	max-width: 100%;
+}*/
+.titree{
+	position: absolute;
+	top: 1000px;
+	left: 10%;
+	width: 100%;
+	text-align: left;
+	color: #fff;
+	font-size: 36px;
+}
+.pro{
+	font-size: 40px;
+}
+.pre{
+	font-size: 30px;
+}
+.separe{
+	height: 3px;
+	width: 5%;
+	background-color: #fff;
+}
+.btn-custom{
+	position: absolute;
+	top: 1100px;
+	right: 10%;
+	font-size: 25px;
+	text-align: right;
+	border-radius: 8px 10px 8px 10px white;
+	color: black;
+	background-color: white;
+	opacity: 0.8;
+	cursor: pointer;
+}
+#d1{
+	display: none;
+}
+
+
+
+
+
+
+/*FOOTER*/
+.footer{
+	padding-top: 15px;
+}
+
+.social-icons, .footer-menu,.address-list{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+.footer-widget .social-icons li a{
+	float: right;
+}
+.footer-bottom p{
+	text-align: center;
+}
+.social-icons li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/*POPUP*/
+
+.modal{
+
+	color: #fff;
+
+}
+.modal h1{
+
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-style: italic;
+
+
+}
+
+.modal p{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.modal h5{
+
+	text-align: center;
+}
+
+.modal ul li{
+	list-style-type: none;
+	line-height: 30px;
+}
+
+.close{
+
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.modal ul li .whatsapp{
+
+	color: #32cd32;
+}
+
+.modal ul li .telegram{
+
+	color: #1e90ff;
+}
+
+.modal ul li .signal{
+
+	color: #7b68ee;
+}
+.modal-content{
+
+	background:url(match-start-img.png);
+
+
+
+}
+
+/*PRELOADER*/
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url(ballon-foot-08.gif)
+	no-repeat center center;
+	z-index: 99999;
+
+}
